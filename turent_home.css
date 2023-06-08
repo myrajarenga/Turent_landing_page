@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    background-color: #007BFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  .navbar .nav-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  .navbar .nav-links .button {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  /* Intro Section Styles */
+  .intro-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FAFAFA;
+  }
+  
+  .intro-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .intro-section p {
+    font-size: 1.2rem;
+    color: #555555;
+  }
+  
+  /* Feature Section Styles */
+  .feature-section {
+    display: grid;
+    gap: 20px;
+    padding: 50px 0;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  
+  .feature-info {
+    text-align: center;
+    order: 2;
+  }
+  
+  .feature-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  
+  .feature-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FAFAFA;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    color: #555555;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  
+  .team-member {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #555555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
